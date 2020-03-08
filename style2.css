@@ -1,0 +1,129 @@
+
+.container2{
+	height:100%;
+	width:auto;
+	background-color: 
+}
+.block{
+	display: block;
+}
+.top-block2{
+background-color: #ffff99  ;
+height: 75px;
+width:100%;
+}
+.top-block2>.topic{
+	margin-top: 10px;
+	float:right;
+	margin-right: 50px;
+}
+.topic a{
+	color:black;
+	margin-top: 50px;
+	margin-left: 0%; 
+	padding: 2px;
+	text-decoration: none;
+
+	
+}
+
+.topic a:hover{
+	background-color: tomato; 
+}
+.search{
+	padding:5px;
+	float:right;
+	margin-top: 10px;
+	margin-left: 90% ;
+	margin-right: 10px;
+	
+}
+.top-block2>.home{
+	margin-top: 10px;
+	float:left;
+	margin-left: 20px;
+}
+.home a{
+  background-color: #0033cc;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.home a:hover{
+  background-color: pink;
+}
+
+
+body{
+  background: #669999;
+}
+
+.wrapper{
+	margin top:350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+.wrapper .input_field input[type="checkbox"]{
+	padding:5px;
+
+}
+
+
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid skyblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wrapper .drp-dwn{
+margin-bottom: 10px;
+}
+.wrapper select{
+	padding: 10px;
+	border: 1px solid skyblue;
+	
+}
+
+#error_message{
+  margin-bottom: 5px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
